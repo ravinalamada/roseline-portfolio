@@ -1,0 +1,16 @@
+footer {
+  background: #434CCC;
+}
+
+@media(min-width: 1000px) {
+
+  .container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
