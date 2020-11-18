@@ -1,13 +1,19 @@
-.stage-content > img {
-  width: 100%;
-}
-
 .stage {
   background: #fff;
+  /* width: 100%; */
+  /* margin: 4em auto; */
   border: 15px solid #333;
   box-shadow: 1px 4px 11px #aaa, inset 1px 3px 6px #ccc;
   /* padding: 1em 0 3em; */
   position: relative;
+}
+
+.stage-content {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-top: 56.25%;
+  background-image: url(../images/prisca-big-smile.png);
 }
 
 .stage-content:after {
@@ -38,7 +44,6 @@
 .curtain-panel .curtain {
   width: 50%;
   background-color: orange;
-  opacity: 0.8;
   position: relative;
   transition: transform 0.5s ease-out;
   display: flex;
@@ -89,4 +94,3 @@
 .curtain-trigger:checked ~ .right-curtain {
   transform: translateX(calc(100% - 2em));
 }
-
