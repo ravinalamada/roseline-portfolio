@@ -12,15 +12,18 @@ body {
   box-sizing: border-box;
 }
 
-a {
+.link {
+  font-size: 40px;
   text-decoration: none;
+  margin-left: 60px;
 }
 
 .header__heading {
   text-align: center;
 }
 
-.main {
+.main,
+.footer--container {
   display: flex;
   justify-content: center;
   align-items: center;
